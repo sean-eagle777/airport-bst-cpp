@@ -1,0 +1,13 @@
+load data/airports.dat
+find BOS
+find XYZ
+range BOS BWI
+cases
+testdelete AEY
+validate
+save tree_preorder.txt
+load tree_preorder.txt
+validate
+rebalance
+info
+quit
